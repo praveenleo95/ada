@@ -1,0 +1,92 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened class="left-content">
+        <div class="logo">
+            <img src="../../assets/logo/images.png" style="width: 80px;">
+        </div>
+
+        <div class="main-menu-content">
+            <p class="listItem" *ngFor="let item of leftMenu">{{item.name}}</p>
+        </div>
+    </mat-drawer>
+
+
+    <mat-drawer-content>
+        <div class="header-menu">
+            <mat-grid-list cols="2" rowHeight="70px" class="dashboardMenu">
+                <mat-grid-tile>
+                    <mat-icon>menu</mat-icon>
+                    <span style="width: 100%;
+                    margin: 0;" class="menuBar">Dashboard</span>
+                </mat-grid-tile>
+                <mat-grid-tile class="rightMenu">
+                    <span>Need help?
+                        <span style="border-right: 1px solid white;" class="menuBar"></span>
+                    </span>
+                    <mat-icon class="menuBar">notifications</mat-icon>
+                    <p class="menuBar">demouseryopmail.com</p>
+                    <!-- <mat-icon>arrow_downward</mat-icon> -->
+                </mat-grid-tile>
+            </mat-grid-list>
+            
+          
+        </div>
+        <!-- main content -->
+
+        <div class="mainContent">
+            <p>Insight Overview</p>
+            <p>Some important information will be presented here.</p>
+            <mat-grid-list cols="3">
+                <div class="card-content-size">
+                <mat-card class="example-card cardSize">                    
+                    <mat-card-content>
+                      <p>Welcome demo user.!</p>
+                      <p>As we discuss here, there so many information that we need to tell you as soon as possible.</p>
+                    </mat-card-content>
+                  </mat-card>
+
+                  <mat-card class="example-card cardSize">                    
+                    <mat-card-content>
+                      <p>Whatsapp</p>
+                      <p>WhatsApp can also help medium and large businesses provide customer s upport and deliver important notifications to customers. Join to WhatsAp p Now.</p>
+                    </mat-card-content>
+                  </mat-card>
+
+
+                  <mat-card class="example-card cardSize">                    
+                    <mat-card-content>
+                      <p>Welcome demo user.!</p>
+                      <p>As we discuss here</p>
+                    </mat-card-content>
+                  </mat-card>
+                </div>
+            </mat-grid-list>
+
+
+            <mat-grid-list cols="3" style="margin-top:20px">
+                <div class="card-content-size">
+                <mat-card class="example-card cardSize">                    
+                    <mat-card-content>
+                      <p>Welcome demo user.!</p>
+                      <p>As we discuss here, there so many information that we need to tell you as soon as possible.</p>
+                    </mat-card-content>
+                  </mat-card>
+
+                  <mat-card class="example-card cardSize">                    
+                    <mat-card-content>
+                      <p>Whatsapp</p>
+                      <p>WhatsApp can also help medium and large businesses provide customer s upport and deliver important notifications to customers. Join to WhatsAp p Now.</p>
+                    </mat-card-content>
+                  </mat-card>
+
+
+                  <mat-card class="example-card cardSize">                    
+                    <mat-card-content>
+                      <p>Welcome demo user.!</p>
+                      <p>As we discuss here</p>
+                    </mat-card-content>
+                  </mat-card>
+                </div>
+            </mat-grid-list>
+        </div>
+    </mat-drawer-content>
+  </mat-drawer-container>

@@ -1,0 +1,50 @@
+.example-container {
+    width: 97vw;
+    height: 97vh;
+    margin: 10px;
+    border: 1px solid #555;
+    /* background-color: #031f3c; */
+  }
+
+  .left-content {
+    width: 200px;
+    background-color: #031f3c;
+  }
+
+  .listItem {
+    color:gray;
+  }
+
+  .main-menu-content {
+    padding-left:15px;
+  }
+
+  .header-menu {
+    color:white;
+  }
+
+  .dashboardMenu {
+   background-color: #031f3c;
+  }
+
+  .menuBar {
+    padding-left:14px;
+  }
+
+  .rightMenu {
+    padding-left:177px;
+  }
+
+  .mainContent {
+    padding:10px;
+  }
+
+  .cardSize {
+    width: 30%;
+    height: 200px;
+    margin-left:20px;
+  }
+
+  .card-content-size {
+    display: flex;
+  }
